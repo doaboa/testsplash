@@ -1,0 +1,67 @@
+#mytabs {
+	position: fixed;
+	left: 0;
+}
+
+
+/* Background */
+body { 
+	$percent-bg: 15%;
+  background:  
+    linear-gradient(
+        to right,
+        rgba(242, 63, 117, 0.45), 
+        rgba(63, 242, 188, 0.45) $percent-bg
+      ),
+    url(http://media.giphy.com/media/5a6IkssTZRI08/giphy.gif) no-repeat center center fixed; 
+  background-size: cover;
+  height: 100%;
+}
+
+#maintext {
+	opacity: 1;
+}
+
+/* All Text */
+	h1 {
+		color: white;
+		line-height: 2em;
+		padding-top: 10%;
+	}
+
+/* Paragraph Text */
+	.note {
+		h1 {
+			font-family: 'Lora', serif;
+	  	letter-spacing: .1em;
+	  	line-height: 1.5em;
+	  	text-align: center;
+			text-shadow: shadow1, shadow2, shadow3;
+			text-shadow: 4px 3px 0px rgba(242, 63, 117, 0.5), 6px 5px 0px rgba(0,0,0,0.15);
+		}
+	}
+
+/* Handwritten Text */
+	.handw {
+			font-family: 'Reenie Beanie', cursive;
+			font-size: 190%;
+		}
+
+  .rotated {
+		transform: rotate(-10deg);
+  	-webkit-transform: rotate(-10deg);
+		-moz-transform: rotate(-10deg);
+		-o-transform: rotate(-10deg);
+		writing-mode: lr-tb;
+	}
+
+	/* Handwritten Bottom */
+	.bottom {
+		h1 {
+			text-align: right;
+		}
+	}
+
+	#secondrow {
+		display: none;
+	}
