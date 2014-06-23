@@ -1,9 +1,3 @@
-#mytabs {
-	position: fixed;
-	left: 0;
-}
-
-
 /* Background */
 body { 
 	$percent-bg: 15%;
@@ -26,7 +20,7 @@ body {
 	h1 {
 		color: white;
 		line-height: 2em;
-		padding-top: 10%;
+		padding-top: 5%;
 	}
 
 /* Paragraph Text */
@@ -60,8 +54,4 @@ body {
 		h1 {
 			text-align: right;
 		}
-	}
-
-	#secondrow {
-		display: none;
 	}

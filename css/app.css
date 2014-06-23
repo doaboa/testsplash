@@ -5181,10 +5181,6 @@ th.hide-for-touch {
   th.show-for-print {
     display: table-cell !important; } }
 
-#mytabs {
-  position: fixed;
-  left: 0; }
-
 /* Background */
 body {
   background: linear-gradient(to right, rgba(242, 63, 117, 0.45), rgba(63, 242, 188, 0.45) 15%), url(http://media.giphy.com/media/5a6IkssTZRI08/giphy.gif) no-repeat center center fixed;
@@ -5198,7 +5194,7 @@ body {
 h1 {
   color: white;
   line-height: 2em;
-  padding-top: 10%; }
+  padding-top: 5%; }
 
 /* Paragraph Text */
 .note h1 {
@@ -5224,6 +5220,3 @@ h1 {
 /* Handwritten Bottom */
 .bottom h1 {
   text-align: right; }
-
-#secondrow {
-  display: none; }
