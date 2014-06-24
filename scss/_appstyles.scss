@@ -12,6 +12,19 @@ body {
   height: 100%;
 }
 
+.scrooll {
+	$percent-bg: 95%;
+  background:  
+    linear-gradient(
+        to right,
+        rgba(242, 63, 117, 0.45), 
+        rgba(63, 242, 188, 0.45) $percent-bg
+      ),
+    url(http://media.giphy.com/media/5a6IkssTZRI08/giphy.gif) no-repeat center center fixed; 
+  background-size: cover;
+  height: 100%;
+}
+
 #maintext {
 	opacity: 1;
 }
