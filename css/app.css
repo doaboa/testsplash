@@ -5225,3 +5225,7 @@ h1 {
 /* Handwritten Bottom */
 .bottom h1 {
   text-align: right; }
+
+/* second row */
+#secondrow {
+  display: none; }
