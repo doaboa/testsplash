@@ -5183,12 +5183,12 @@ th.hide-for-touch {
 
 /* Background */
 body {
-  background: linear-gradient(to right, rgba(242, 63, 117, 0.45), rgba(63, 242, 188, 0.45) 15%), url(http://media.giphy.com/media/5a6IkssTZRI08/giphy.gif) no-repeat center center fixed;
+  background: linear-gradient(to right, rgba(196, 59, 100, 0.45), rgba(59, 196, 155, 0.45) 15%), url(http://media.giphy.com/media/5a6IkssTZRI08/giphy.gif) no-repeat center center fixed;
   background-size: cover;
   height: 100%; }
 
 .scrooll {
-  background: linear-gradient(to right, rgba(242, 63, 117, 0.45), rgba(63, 242, 188, 0.45) 95%), url(http://media.giphy.com/media/5a6IkssTZRI08/giphy.gif) no-repeat center center fixed;
+  background: linear-gradient(to right, rgba(150, 39, 73, 0.45), rgba(39, 150, 116, 0.45) 95%), url(http://media.giphy.com/media/5a6IkssTZRI08/giphy.gif) no-repeat center center fixed;
   background-size: cover;
   height: 100%; }
 
@@ -5208,7 +5208,7 @@ h1 {
   line-height: 1.5em;
   text-align: center;
   text-shadow: shadow1, shadow2, shadow3;
-  text-shadow: 4px 3px 0px rgba(242, 63, 117, 0.5), 6px 5px 0px rgba(0, 0, 0, 0.15); }
+  text-shadow: 4px 3px 0px rgba(150, 39, 73, 0.5), 6px 5px 0px rgba(0, 0, 0, 0.15); }
 
 /* Handwritten Text */
 .handw {
